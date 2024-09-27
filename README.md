@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Admin Dashboard
 
-## Getting Started
+A modern web application built with React/Next.js, utilizing a powerful combination of libraries and tools such as Shadcn/ui, TypeScript, Tailwind CSS, Recharts, Lucide React, React Hook Form, and Zod for a seamless and responsive user experience.
 
-First, run the development server:
+### Table of Contents
+
+--* [Technologies Used](#technologies-used)
+--* [Features](#features)
+--* [Installation](#installation)
+--* [Getting Started](#getting-started)
+--* [Project Structure](#projet-structure)
+--* [Contributing](#contributing)
+--* [License](#license)
+
+### Technologies Used
+
+--* [Next.js](https://nextjs.org/)
+--* [Typescript](https://www.typescriptlang.org/)
+--* [Shadcn](https://ui.shadcn.com/)
+--* [TailwindCSS](https://tailwindcss.com/)
+--* [Recharts](https://recharts.org/en-US/)
+--* [Lucide React](https://lucide.dev/)
+--* [React Hook Form](https://react-hook-form.com/)
+--* [Zod](https://zod.dev/)
+
+### Features
+
+--* Component-based architecture: Built with reusable components using React and Next.js.
+--* Responsive UI: Styled using Tailwind CSS and Shadcn/ui components for fast and responsive design.
+--* Data visualization: Built-in support for creating elegant and interactive charts using Recharts.
+--* Form handling & validation: Forms are handled by React Hook Form, with validation powered by Zod.
+
+
+### Installation
+
+To set up and run the project locally, follow these steps:
+
+1. Clone the repository:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Copy code
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+Install dependencies:
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Ensure you have Node.js installed, then run:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+Copy code
+npm install
+```
+3. Set up environment variables:
+--* [Next.js](https://nextjs.org/)
+--* [Typescript](https://www.typescriptlang.org/)
+--* [Shadcn](https://ui.shadcn.com/)
+--* [TailwindCSS](https://tailwindcss.com/)
+--* [Recharts](https://recharts.org/en-US/)
+--* [Lucide React](https://lucide.dev/)
+--* [React Hook Form](https://react-hook-form.com/)
+--* [Zod](https://zod.dev/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Run the development server:
 
-## Learn More
+```bash
+Copy code
+npm run dev
+```
+The application will be available at [http://localhost:3000].
 
-To learn more about Next.js, take a look at the following resources:
+### Getting Started
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To start developing, open the project in your favorite code editor and make your changes. Here's a breakdown of the key directories:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+--* ```app/```: Contains the Next.js pages (server-side rendering or static pages).
+--* ```components/```: Shared components used across the application.
+--* ```hooks/```: Custom hooks for handling logic, forms, and more.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+.
+├── public        # Static assets (images, etc.)
+├── components           # Reusable UI components
+│   ├── auth             # Components related to authentication (e.g., Login, Signup forms)
+├── hooks                # Custom React hooks
+│   ├── use-toasts.ts    # Hook to manage toasts
+└── lib                  # Custom React Library         
+│   ├── utils            # Utility function
+```
+
+### License
+
+
+This project is licensed under the MIT License - see the (LICENSE)[/LICENSE] file for details.
