@@ -4,48 +4,48 @@ A modern web application built with React/Next.js, utilizing a powerful combinat
 
 ### Table of Contents
 
-⋅⋅* [Technologies Used](#technologies-used)
+* [Technologies Used](#technologies-used)
 
-⋅⋅* [Features](#features)
+* [Features](#features)
 
-⋅⋅* [Installation](#installation)
+* [Installation](#installation)
 
-⋅⋅* [Getting Started](#getting-started)
+* [Getting Started](#getting-started)
 
-⋅⋅* [Project Structure](#projet-structure)
+* [Project Structure](#projet-structure)
 
-⋅⋅* [Contributing](#contributing)
+* [Contributing](#contributing)
 
-⋅⋅* [License](#license)
+* [License](#license)
 
 ### Technologies Used
 
-⋅⋅* [Next.js](https://nextjs.org/)
+* [Next.js](https://nextjs.org/)
 
-⋅⋅* [Typescript](https://www.typescriptlang.org/)
+* [Typescript](https://www.typescriptlang.org/)
 
-⋅⋅* [Shadcn](https://ui.shadcn.com/)
+* [Shadcn](https://ui.shadcn.com/)
 
-⋅⋅* [TailwindCSS](https://tailwindcss.com/)
+* [TailwindCSS](https://tailwindcss.com/)
 
-⋅⋅* [Recharts](https://recharts.org/en-US/)
+* [Recharts](https://recharts.org/en-US/)
 
-⋅⋅* [Lucide React](https://lucide.dev/)
+* [Lucide React](https://lucide.dev/)
 
-⋅⋅* [React Hook Form](https://react-hook-form.com/)
+* [React Hook Form](https://react-hook-form.com/)
 
-⋅⋅* [Zod](https://zod.dev/)
+* [Zod](https://zod.dev/)
 
 
 ### Features
 
-⋅⋅* Component-based architecture: Built with reusable components using React and Next.js.
+* Component-based architecture: Built with reusable components using React and Next.js.
 
-⋅⋅* Responsive UI: Styled using Tailwind CSS and Shadcn/ui components for fast and responsive design.
+* Responsive UI: Styled using Tailwind CSS and Shadcn/ui components for fast and responsive design.
 
-⋅⋅* Data visualization: Built-in support for creating elegant and interactive charts using Recharts.
+* Data visualization: Built-in support for creating elegant and interactive charts using Recharts.
 
-⋅⋅* Form handling & validation: Forms are handled by React Hook Form, with validation powered by Zod.
+* Form handling & validation: Forms are handled by React Hook Form, with validation powered by Zod.
 
 
 ### Installation
@@ -69,21 +69,21 @@ npm install
 ```
 3. Set up environment variables:
 
-⋅⋅* [Next.js](https://nextjs.org/)
+* [Next.js](https://nextjs.org/)
 
-⋅⋅* [Typescript](https://www.typescriptlang.org/)
+* [Typescript](https://www.typescriptlang.org/)
 
-⋅⋅* [Shadcn](https://ui.shadcn.com/)
+* [Shadcn](https://ui.shadcn.com/)
 
-⋅⋅* [TailwindCSS](https://tailwindcss.com/)
+* [TailwindCSS](https://tailwindcss.com/)
 
-⋅⋅* [Recharts](https://recharts.org/en-US/)
+* [Recharts](https://recharts.org/en-US/)
 
-⋅⋅* [Lucide React](https://lucide.dev/)
+* [Lucide React](https://lucide.dev/)
 
-⋅⋅* [React Hook Form](https://react-hook-form.com/)
+* [React Hook Form](https://react-hook-form.com/)
 
-⋅⋅* [Zod](https://zod.dev/)
+* [Zod](https://zod.dev/)
 
 
 4. Run the development server:
@@ -92,17 +92,17 @@ npm install
 Copy code
 npm run dev
 ```
-The application will be available at [http://localhost:3000].
+The application will be available at localhost:3000.
 
 ### Getting Started
 
 To start developing, open the project in your favorite code editor and make your changes. Here's a breakdown of the key directories:
 
-⋅⋅* ```app/```: Contains the Next.js pages (server-side rendering or static pages).
+* ```app/```: Contains the Next.js pages (server-side rendering or static pages).
 
-⋅⋅* ```components/```: Shared components used across the application.
+* ```components/```: Shared components used across the application.
 
-⋅⋅* ```hooks/```: Custom hooks for handling logic, forms, and more.
+* ```hooks/```: Custom hooks for handling logic, forms, and more.
 
 
 
