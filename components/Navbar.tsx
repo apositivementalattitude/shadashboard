@@ -13,7 +13,7 @@ import {
 import ThemeToggler from "@/components/ui/ThemeToggler";
 
 const Navbar = () => {
-    return <div className="bg-primary dark:bg-slate-900 text-white py-2 px-5 flex justify-between">
+    return <div className="bg-red-200 dark:bg-slate-900 text-white py-2 px-5 flex justify-between">
         <Link href='/'>
         <Image src={ logo } alt='Logo' width={40} />
         </Link>
